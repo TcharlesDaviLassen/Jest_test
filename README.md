@@ -1,6 +1,6 @@
 # Instalação do serviços da aplicação
 
-## npm install -D prisma jest @types/jest typescript @types/node supertest @types/supertest @swc/core @swc/jest.
+#### npm install -D prisma jest @types/jest typescript @types/node supertest @types/supertest @swc/core @swc/jest.
 
 Para tornar seus testes Jest mais rápidos, você pode trocar o executor padrão baseado em JavaScript ( ts-jest) por um substituto Rust.(abre em uma nova aba)usando o SWC.
 
