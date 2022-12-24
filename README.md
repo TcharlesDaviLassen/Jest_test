@@ -1,4 +1,4 @@
-# Instalação do serviços da aplicação
+# Instalação dos serviços da aplicação
 
 #### npm install -D prisma jest @types/jest typescript @types/node supertest @types/supertest @swc/core @swc/jest.
 
