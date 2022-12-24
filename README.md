@@ -13,7 +13,7 @@ transform: {
     "^.+\\.(t|j)sx?$": ["@swc/jest"],
   },
   
- vai pegar todos os arquivos TS, TXS ou JSX e vai usar o ["@swc/jest"] para converter os arquivos para JS puro.
+ vai pegar todos os arquivos TS, TXS ou JSX e vai usar o ["@swc/jest"] para converter os arquivos e tranforma-los em JS puro.
 
 ### Para inicializar um projeto TYPESCRYPT
  npx tsc --init .
