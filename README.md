@@ -1,6 +1,6 @@
 # Instalação dos serviços da aplicação
 
-#### npm install -D prisma jest @types/jest typescript @types/node supertest @types/supertest @swc/core @swc/jest.
+### npm install -D prisma jest @types/jest typescript @types/node supertest @types/supertest @swc/core @swc/jest.
 
 Para tornar seus testes Jest mais rápidos, você pode trocar o executor padrão baseado em JavaScript ( ts-jest) por um substituto Rust.(abre em uma nova aba)usando o SWC.
 
@@ -8,15 +8,15 @@ O Jest roda o código do seu projeto como JavaScript, mas se você usa alguma si
 
 Jest suporta isso através da opção de configuração transform.
 
-#### Usar o  
+### Usar o  
 transform: {
     "^.+\\.(t|j)sx?$": ["@swc/jest"],
   },
   
  vai pegar todos os arquivos TS, TXS ou JSX e vai usar o ["@swc/jest"] para converter os arquivos para JS puro.
 
-#### Para inicializar um projeto TYPESCRYPT
+### Para inicializar um projeto TYPESCRYPT
  npx tsc --init .
 
-#### npx jest --init
+### npx jest --init
 irá fazer umas perguntas em relação as opções do projeto .
