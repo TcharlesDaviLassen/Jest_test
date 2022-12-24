@@ -12,6 +12,7 @@ Jest suporta isso através da opção de configuração transform.
 transform: {
     "^.+\\.(t|j)sx?$": ["@swc/jest"],
   },
+  
  vai pegar todos os arquivos TS, TXS ou JSX e vai usar o ["@swc/jest"] para converter os arquivos para JS puro.
 
 #### Para inicializar um projeto TYPESCRYPT
